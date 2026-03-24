@@ -4,7 +4,7 @@ class Solution {
      for(int i=0; i<nums.length; i++){
             if(!hm.containsKey(nums[i])){
                 hm.put(nums[i], i);
-
+ 
             }
             else{
                 int pastIndex= hm.get(nums[i]);
